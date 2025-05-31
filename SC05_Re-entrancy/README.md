@@ -200,3 +200,7 @@ Ran 1 test suite in 729.78ms (865.30µs CPU time): 1 tests passed, 0 failed, 0 s
 ```
 
 
+# Mitigation
+
+In order to mitigate this vulnerability, we have to make sure that the state variable that would prevent the attacker from re-calling the `withdrawETH()` function over and over again is put just before the external function call itself.
+So in general, make sure you put any condition or state variable change that would be crucial to determining whether a function could be re-entered or not, just before the external function call itself!
