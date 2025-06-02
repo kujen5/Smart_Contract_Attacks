@@ -1,0 +1,3 @@
+[submodule "SC09_Insecure-Randomness/Weak_Randomness/lib/forge-std"]
+	path = SC09_Insecure-Randomness/Weak_Randomness/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
