@@ -21,13 +21,15 @@ If more setup is required, you'll find details regarding that specific to each V
 
 ## Usage
 1. Compile your code:
+
 Run:
 
 ```bash
 forge compile
 ```
 
-2. Test the code
+2. Test the code:
+
 Run:
 ```bash
 forge test -vvvv
